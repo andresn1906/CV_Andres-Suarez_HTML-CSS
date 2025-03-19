@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Noto Serif", serif;
+    margin: 0.5%;
+}
+h1{
+    font-size: 2.5em;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+h2{
+    font-size: 1.75em;
+    margin-left: 2.5px;
+    margin-bottom: 2.5px;
+    text-align: center;
+}
+h3{
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 2.5px;
+    margin-left: 2.5px;
+    text-align: center;
+}
+hr{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.container{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.header{
+    position: relative;
+}
+#profilepicture{
+    width: 250px; /* Ancho de la imagen */
+    height: 265px; /* Altura de la imagen */
+    border-radius: 55%; 
+    outline: 5px outset beige;
+    margin: 7%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    display: block; /* La imagen se comporta como un bloque para evitar espacio adicional */
+    margin-bottom: 100px;
+}
+.izquierda{
+    justify-content: center;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    background-color: #ffffff;
+    width: 100%;
+}
+.information{
+    display: inline-block;
+    vertical-align: middle;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1%;
+    width: 60%;
+}
+.information p{
+    font-size: 1.25em;
+}
+.social_media a{
+    text-decoration: none;
+    color:black;
+    text-align:center;
+    vertical-align:super;
+    margin-left: 10px;
+    font-size: 1.3em;
+}
+.social_media img{
+    color: #ffffff;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 1px;
+    width: 35px;
+    height: 35px;
+    vertical-align: center;
+    line-height: 1.5em; 
+}
+.social_media{
+    display: inline-block;
+    vertical-align: middle;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1%;
+    width: 60%;
+    margin-top: 80px;
+}
+.derecha{
+    justify-content: center;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    width: 100%;
+    margin-top: 80px;
+    margin-right: 80px;
+}
+.personal_presentation{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5%;
+    width: 60%;
+    text-align: center;
+}
+.personal_presentation p{
+    font-size: 1.25em;
+}
+.studies{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5%;
+    width: 60%;
+    text-align: center;
+}
+.studies p{
+    font-size: 1.25em;
+}
+.stacks_tech img{
+    color: #000000;
+    border-radius: 20px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 1.5em;  
+}
+.stacks_tech{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2.5%;
+    width: 60%;
+    text-align: center;
+}
+.english a{
+    background-color:rgba(255, 255, 255, 0.842);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    outline: 4px outset rgb(214, 214, 214);
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.english a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    outline: 4px outset beige;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
