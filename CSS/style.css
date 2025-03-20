@@ -1,38 +1,38 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap'); /* Importación de la fuente externa para la hoja de vida */
 *{
     margin: 0px;
     padding: 0px;
-}
+} /* Aplicación de un margen y relleno de 0 a todo */
 body{
     background-color: #ffffff;
     color: #000000;
     font-family: "Noto Serif", serif;
     margin: 0.5%;
-}
+} /* Esta parte sirve para aplicar cambios a todo lo que esté dentro de body, como la fuente para todo o el color de las letras y del fondo */
 h1{
     font-size: 2.5em;
     margin-left: 2px;
     margin-bottom: 5px;
     text-align: center;
-}
+} /* Línea para editar todos los títulos identificados con "h1" */
 h2{
     font-size: 1.75em;
     margin-left: 2.5px;
     margin-bottom: 2.5px;
     text-align: center;
-}
+} /* Línea para editar todos los títulos identificados como "h2" */
 h3{
     font-size: 1.5em;
     margin-top: 20px;
     margin-bottom: 2.5px;
     margin-left: 2.5px;
     text-align: center;
-}
+} /* Línea para editar todos los títulos identificados como "h3" */
 hr{
     margin-top: 5px;
     margin-bottom: 20px;
-}
+} /* Sirve para darle una edición a todos los "hr" o líneas de separación que va debajo de cada "h1" */
 .container{
     background-color: #ffffff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -43,7 +43,7 @@ hr{
     margin: 0 auto;
     position: relative;
     z-index: 1;
-}
+} /* Esta línea funciona como el diseño de la hoja que va por encima de la página, la cual tiene el contenido informativo */
 .header{
     position: relative;
 }
@@ -56,7 +56,7 @@ hr{
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     display: block; /* La imagen se comporta como un bloque para evitar espacio adicional */
     margin-bottom: 100px;
-}
+} /* Línea para editar la foto de perfil y su posición */
 .izquierda{
     justify-content: center;
     text-align: justify;
@@ -65,18 +65,16 @@ hr{
     align-items: center ;
     background-color: #ffffff;
     width: 100%;
-}
+} /* Línea para editar la estructura y el apartado visual de la columna izquierda */
 .information{
     display: inline-block;
     vertical-align: middle;
-    display: inline-block;
-    vertical-align: top;
     padding: 1%;
     width: 60%;
-}
+} /* Línea para editar el "bloque" visual que contiene la información personal */
 .information p{
     font-size: 1.25em;
-}
+} /* Línea para editar la fuente únicamente de los párrafos */
 .social_media a{
     text-decoration: none;
     color:black;
@@ -84,7 +82,7 @@ hr{
     vertical-align:super;
     margin-left: 10px;
     font-size: 1.3em;
-}
+} /* Esta línea edita únicamente los enlaces que contiene el bloque de redes sociales */
 .social_media img{
     color: #ffffff;
     background: #ffffff;
@@ -94,16 +92,15 @@ hr{
     height: 35px;
     vertical-align: center;
     line-height: 1.5em; 
-}
+} /* Esta línea edita únicamente las imágenes contenidas dentro del bloque de redes sociales */
 .social_media{
-    display: inline-block;
-    vertical-align: middle;
     display: inline-block;
     vertical-align: top;
     padding: 1%;
     width: 60%;
     margin-top: 80px;
-}
+} /* Esta línea modifica el "bloque" de redes sociales */
+
 .derecha{
     justify-content: center;
     text-align: justify;
@@ -113,27 +110,27 @@ hr{
     width: 100%;
     margin-top: 80px;
     margin-right: 80px;
-}
+} /* Línea para editar la estructura y el apartado visual de la columna derecha */
 .personal_presentation{
     display: inline-block;
     vertical-align: middle;
     padding: 5%;
     width: 60%;
     text-align: center;
-}
+} /* En esta línea se personaliza el bloque que contiene la presentación personal */
 .personal_presentation p{
     font-size: 1.25em;
-}
+} /* Esta línea modifica únicamente el tamaño de fuente de los párrafos dentro de la presentación personal */
 .studies{
     display: inline-block;
     vertical-align: middle;
     padding: 5%;
     width: 60%;
     text-align: center;
-}
+} /* Esta línea modifica el bloque que contiene la información de los estudios */
 .studies p{
     font-size: 1.25em;
-}
+} /* Esta línea modifica únicamente el tamaño de fuente de los párrafos dentro del bloque de estudios */
 .stacks_tech img{
     color: #000000;
     border-radius: 20px;
@@ -143,14 +140,14 @@ hr{
     text-align: center;
     vertical-align: center;
     line-height: 1.5em;  
-}
+} /* Esta línea personaliza las imágenes contenidas dentro del bloque de stacks tecnológicos */
 .stacks_tech{
     display: inline-block;
     vertical-align: middle;
     padding: 2.5%;
     width: 60%;
     text-align: center;
-}
+} /* Esta línea modifica el bloque que contiene la información de los stacks tecnológicos */
 .english a{
     background-color:rgba(255, 255, 255, 0.842);
     text-decoration: none;
@@ -165,10 +162,10 @@ hr{
     height: fit-content;
     margin-bottom: 50px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-}
+} /* Acá se modifica el "botón" que redirige hacía la otra web. Se específica con 'a' debido a que el texto pertenece a un hipervínculo */
 .english a:hover{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     outline: 4px outset beige;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-}
+} /* Esta parte modifica el aspecto visual del "botón" al pasarle el ratón/mouse por encima */
